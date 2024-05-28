@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "Inter-bold";
+    src: url(./assets/fonts/static/Inter-SemiBold.ttf) format('truetype');
+}
+
+
+* {
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+    font-family: 'Inter-bold';
+}
+
+.container {
+    position: absolute;
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    padding: 20px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: hsl(0, 0%, 12%);
+
+}
+
+h1 {
+    margin-bottom: -7px;
+    font-size: 17px;
+}
+
+p {
+    font-size: 10px;
+}
+
+div p:nth-child(3) {
+    color: hsl(75, 94%, 57%);
+}
+
+img {
+    width: 25%;
+    border-radius: 100%;
+}
+
+a {
+
+    background-color: hsl(0, 0%, 20%);
+    color: inherit;
+    display: block;
+    text-decoration: none;
+    margin: 12px;
+    padding: 13px;
+    font-size: 9px;
+    cursor: pointer;
+}
+
+a:hover {
+    color: hsl(0, 0%, 20%);
+    background-color: hsl(75, 94%, 57%);
+}
